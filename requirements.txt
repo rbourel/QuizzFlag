@@ -1,0 +1,1 @@
+pillow @ file:///C:/Users/T0283121/Downloads/pillow-10.4.0-cp312-cp312-win_amd64.whl#sha256=1d846aea995ad352d4bdcc847535bd56e0fd88d36829d2c90be880ef1ee4668a
