@@ -1,250 +1,239 @@
-Angola,flags/ao.png
-American Samoa,flags/as.png
-Aruba,flags/aw.png
-Aland Islands,flags/ax.png
-Bhutan,flags/bt.png
-Bielorussia,flags/by.png
-Christmas Island,flags/cc.png
-Antarctica,flags/aq.png
-Andorra,flags/ad.png
-United Arab Emirates,flags/ae.png
-Afghanistan,flags/af.png
-Antigua and Barbuda,flags/ag.png
-Anguilla,flags/ai.png
-Albania,flags/al.png
-Armenia,flags/am.png
-Australia,flags/au.png
-Austria,flags/at.png
-Azerbaijan,flags/az.png
-Bosnia and Herzegovina,flags/ba.png
-Barbados,flags/bb.png
-Bangladesh,flags/bd.png
-Belgium,flags/be.png
-Burkina Faso,flags/bf.png
-Bulgaria,flags/bg.png
-Bahrain,flags/bh.png
-Burundi,flags/bi.png
-Benin,flags/bj.png
-Brunei,flags/bn.png
-Bolivia,flags/bo.png
-Brazil,flags/br.png
-Bahamas,flags/bs.png
-Botswana,flags/bw.png
-Belize,flags/bz.png
-Canada,flags/ca.png
-Cocos (Keeling) Islands,flags/cc.png
-Congo Democratic Republic of the,flags/cd.png
-Central African Republic,flags/cf.png
-Congo Republic of the,flags/cg.png
-Switzerland,flags/ch.png
-Côte d\Ivoire,flags/ci.png
-Cook Islands,flags/ck.png
-Chile,flags/cl.png
-Cameroon,flags/cm.png
-China,flags/cn.png
-Colombia,flags/co.png
-Costa Rica,flags/cr.png
-Cuba,flags/cu.png
-Cape Verde,flags/cv.png
-Curaçao,flags/cw.png
-Christmas Island,flags/cx.png
-Cyprus,flags/cy.png
-Czech Republic,flags/cz.png
-Germany,flags/de.png
-Djibouti,flags/dj.png
-Denmark,flags/dk.png
-Dominica,flags/dm.png
-Dominican Republic,flags/do.png
-Algeria,flags/dz.png
-Ecuador,flags/ec.png
-Estonia,flags/ee.png
-Egypt,flags/eg.png
-Western Sahara,flags/eh.png
-Eritrea,flags/er.png
-Spain,flags/es.png
-Ethiopia,flags/et.png
-Finland,flags/fi.png
-Fiji,flags/fj.png
-Falkland Islands,flags/fk.png
-Micronesia,flags/fm.png
-Faroe Islands,flags/fo.png
-France,flags/fr.png
-Gabon,flags/ga.png
-United Kingdom,flags/gb.png
-Grenada,flags/gd.png
-Georgia,flags/ge.png
-French Guiana,flags/gf.png
-Ghana,flags/gh.png
-Gibraltar,flags/gi.png
-Greenland,flags/gl.png
-Gambia,flags/gm.png
-Guinea,flags/gn.png
-Guadeloupe,flags/gp.png
-Equatorial Guinea,flags/gq.png
-Greece,flags/gr.png
-South Georgia and the South Sandwich Islands,flags/gs.png
-Guatemala,flags/gt.png
-Guam,flags/gu.png
-Guyana,flags/gy.png
-Hong Kong,flags/hk.png
-Honduras,flags/hn.png
-Croatia,flags/hr.png
-Haiti,flags/ht.png
-Hungary,flags/hu.png
-Indonesia,flags/id.png
-Isle of Man,flags/im.png
-India,flags/in.png
-British Indian Ocean Territory,flags/io.png
-Iraq,flags/iq.png
-Iran,flags/ir.png
-Iceland,flags/is.png
-Italy,flags/it.png
-Jersey,flags/je.png
-Jamaica,flags/jm.png
-Jordan,flags/jo.png
-Japan,flags/jp.png
-Kenya,flags/ke.png
-Kyrgyzstan,flags/kg.png
-Cambodia,flags/kh.png
-Kiribati,flags/ki.png
-Comoros,flags/km.png
-Saint Kitts and Nevis,flags/kn.png
-North Korea,flags/kp.png
-South Korea,flags/kr.png
-Kuwait,flags/kw.png
-Cayman Islands,flags/ky.png
-Kazakhstan,flags/kz.png
-Laos,flags/la.png
-Lebanon,flags/lb.png
-Saint Lucia,flags/lc.png
-Liechtenstein,flags/li.png
-Sri Lanka,flags/lk.png
-Liberia,flags/lr.png
-Lesotho,flags/ls.png
-Lithuania,flags/lt.png
-Luxembourg,flags/lu.png
-Latvia,flags/lv.png
-Libya,flags/ly.png
-Morocco,flags/ma.png
-Monaco,flags/mc.png
-Moldova,flags/md.png
-Montenegro,flags/me.png
-Saint Martin,flags/mf.png
-Madagascar,flags/mg.png
-Marshall Islands,flags/mh.png
-North Macedonia,flags/mk.png
-Mali,flags/ml.png
-Myanmar,flags/mm.png
-Mongolia,flags/mn.png
-Macao,flags/mo.png
-Northern Mariana Islands,flags/mp.png
-Martinique,flags/mq.png
-Mauritania,flags/mr.png
-Montserrat,flags/ms.png
-Malta,flags/mt.png
-Mauritius,flags/mu.png
-Malawi,flags/mw.png
-Mexico,flags/mx.png
-Malaysia,flags/my.png
-Mozambique,flags/mz.png
-Namibia,flags/na.png
-New Caledonia,flags/nc.png
-Niger,flags/ne.png
-Norfolk Island,flags/nf.png
-Nigeria,flags/ng.png
-Nicaragua,flags/ni.png
-Netherlands,flags/nl.png
-Norway,flags/no.png
-Nepal,flags/np.png
-Nauru,flags/nr.png
-New Zealand,flags/nz.png
-Oman,flags/om.png
-Panama,flags/pa.png
-Peru,flags/pe.png
-French Polynesia,flags/pf.png
-Papua New Guinea,flags/pg.png
-Philippines,flags/ph.png
-Pakistan,flags/pk.png
-Poland,flags/pl.png
-Saint Pierre and Miquelon,flags/pm.png
-Pitcairn Islands,flags/pn.png
-Puerto Rico,flags/pr.png
-Palestine,flags/ps.png
-Portugal,flags/pt.png
-Palau,flags/pw.png
-Paraguay,flags/py.png
-Qatar,flags/qa.png
-Réunion,flags/re.png
-Romania,flags/ro.png
-Serbia,flags/rs.png
-Russia,flags/ru.png
-Rwanda,flags/rw.png
-Saudi Arabia,flags/sa.png
-Solomon Islands,flags/sb.png
-Seychelles,flags/sc.png
-Sudan,flags/sd.png
-Sweden,flags/se.png
-Singapore,flags/sg.png
-Saint Helena,flags/sh.png
-Saint Kitts and Nevis,flags/kn.png
-Saint Lucia,flags/lc.png
-Saint Martin,flags/mf.png
-Saint Pierre and Miquelon,flags/pm.png
-Saint Vincent and the Grenadines,flags/vc.png
-Samoa,flags/ws.png
-San Marino,flags/sm.png
-Sao Tome and Principe,flags/st.png
-Saudi Arabia,flags/sa.png
-Senegal,flags/sn.png
-Serbia,flags/rs.png
-Seychelles,flags/sc.png
-Sierra Leone,flags/sl.png
-Singapore,flags/sg.png
-Sint Maarten,flags/sx.png
-Slovakia,flags/sk.png
-Slovenia,flags/si.png
-Solomon Islands,flags/sb.png
-Somalia,flags/so.png
-South Africa,flags/za.png
-South Georgia and the South Sandwich Islands,flags/gs.png
-South Korea,flags/kr.png
-South Sudan,flags/ss.png
-Spain,flags/es.png
-Sri Lanka,flags/lk.png
-Sudan,flags/sd.png
-Suriname,flags/sr.png
-Svalbard and Jan Mayen,flags/sj.png
-Swaziland,flags/sz.png  # Known as Eswatini
-Sweden,flags/se.png
-Switzerland,flags/ch.png
-Syria,flags/sy.png
-Taiwan,flags/tw.png
-Tajikistan,flags/tj.png
-Tanzania,flags/tz.png
-Thailand,flags/th.png
-Timor-Leste,flags/tl.png
-Togo,flags/tg.png
-Tokelau,flags/tk.png
-Tonga,flags/to.png
-Trinidad and Tobago,flags/tt.png
-Tunisia,flags/tn.png
-Turkey,flags/tr.png
-Turkmenistan,flags/tm.png
-Turks and Caicos Islands,flags/tc.png
-Tuvalu,flags/tv.png
-Uganda,flags/ug.png
-Ukraine,flags/ua.png
-United Arab Emirates,flags/ae.png
-United Kingdom,flags/gb.png
-United States,flags/us.png
-Uruguay,flags/uy.png
-Uzbekistan,flags/uz.png
-Vanuatu,flags/vu.png
-Vatican City,flags/va.png
-Venezuela,flags/ve.png
-Vietnam,flags/vn.png
-Wallis and Futuna,flags/wf.png
-Western Sahara,flags/eh.png
-Yemen,flags/ye.png
-Zambia,flags/zm.png
-Zimbabwe,flags/zw.png
+Angola,flags/ao.png,Luanda
+Samoa américaines,flags/as.png,Pago Pago
+Aruba,flags/aw.png,Oranjestad
+Îles Åland,flags/ax.png,Mariehamn
+Bhoutan,flags/bt.png,Thimphou
+Biélorussie,flags/by.png,Minsk
+Île Christmas,flags/cc.png,Flying Fish Cove
+Antarctique,flags/aq.png,Pas de capitale
+Andorre,flags/ad.png,Andorre-la-Vieille
+Émirats arabes unis,flags/ae.png,Abou Dhabi
+Afghanistan,flags/af.png,Kaboul
+Antigua et Barbuda,flags/ag.png,St. John's
+Anguilla,flags/ai.png,The Valley
+Albanie,flags/al.png,Tirana
+Arménie,flags/am.png,Erevan
+Australie,flags/au.png,Canberra
+Autriche,flags/at.png,Vienne
+Azerbaïdjan,flags/az.png,Bakou
+Bosnie-Herzégovine,flags/ba.png,Sarajevo
+Barbade,flags/bb.png,Bridgetown
+Bangladesh,flags/bd.png,Dacca
+Belgique,flags/be.png,Bruxelles
+Burkina Faso,flags/bf.png,Ouagadougou
+Bulgarie,flags/bg.png,Sofia
+Bahreïn,flags/bh.png,Manama
+Burundi,flags/bi.png,Gitega
+Bénin,flags/bj.png,Porto-Novo
+Brunei,flags/bn.png,Bandar Seri Begawan
+Bolivie,flags/bo.png,Sucre
+Brésil,flags/br.png,Brasília
+Bahamas,flags/bs.png,Nassau
+Botswana,flags/bw.png,Gaborone
+Belize,flags/bz.png,Belmopan
+Canada,flags/ca.png,Ottawa
+Îles Cocos (Keeling),flags/cc.png,West Island
+République démocratique du Congo,flags/cd.png,Kinshasa
+République centrafricaine,flags/cf.png,Bangui
+République du Congo,flags/cg.png,Brazzaville
+Suisse,flags/ch.png,Berne
+Côte d'Ivoire,flags/ci.png,Yamoussoukro
+Îles Cook,flags/ck.png,Avarua
+Chili,flags/cl.png,Santiago
+Cameroun,flags/cm.png,Yaoundé
+Chine,flags/cn.png,Pékin
+Colombie,flags/co.png,Bogotá
+Costa Rica,flags/cr.png,San José
+Cuba,flags/cu.png,La Havane
+Cap-Vert,flags/cv.png,Praia
+Curaçao,flags/cw.png,Willemstad
+Île Christmas,flags/cx.png,Flying Fish Cove
+Chypre,flags/cy.png,Nicosie
+République tchèque,flags/cz.png,Prague
+Allemagne,flags/de.png,Berlin
+Djibouti,flags/dj.png,Djibouti
+Danemark,flags/dk.png,Copenhague
+Dominique,flags/dm.png,Roseau
+République dominicaine,flags/do.png,Saint-Domingue
+Algérie,flags/dz.png,Alger
+Équateur,flags/ec.png,Quito
+Estonie,flags/ee.png,Tallinn
+Égypte,flags/eg.png,Le Caire
+Sahara occidental,flags/eh.png,El Aaiún
+Érythrée,flags/er.png,Asmara
+Espagne,flags/es.png,Madrid
+Éthiopie,flags/et.png,Addis-Abeba
+Finlande,flags/fi.png,Helsinki
+Fidji,flags/fj.png,Suva
+Îles Falkland,flags/fk.png,Stanley
+Micronésie,flags/fm.png,Palikir
+Îles Féroé,flags/fo.png,Tórshavn
+France,flags/fr.png,Paris
+Gabon,flags/ga.png,Libreville
+Royaume-Uni,flags/gb.png,Londres
+Grenade,flags/gd.png,St. George's
+Géorgie,flags/ge.png,Tbilissi
+Guyane française,flags/gf.png,Cayenne
+Ghana,flags/gh.png,Accra
+Gibraltar,flags/gi.png,Gibraltar
+Groenland,flags/gl.png,Nuuk
+Gambie,flags/gm.png,Banjul
+Guinée,flags/gn.png,Conakry
+Guadeloupe,flags/gp.png,Basse-Terre
+Guinée équatoriale,flags/gq.png,Malabo
+Grèce,flags/gr.png,Athènes
+Géorgie du Sud-et-les Îles Sandwich du Sud,flags/gs.png,King Edward Point
+Guatemala,flags/gt.png,Guatemala
+Guam,flags/gu.png,Hagåtña
+Guyana,flags/gy.png,Georgetown
+Hong Kong,flags/hk.png,City of Victoria
+Honduras,flags/hn.png,Tegucigalpa
+Croatie,flags/hr.png,Zagreb
+Haïti,flags/ht.png,Port-au-Prince
+Hongrie,flags/hu.png,Budapest
+Indonésie,flags/id.png,Jakarta
+Île de Man,flags/im.png,Douglas
+Inde,flags/in.png,New Delhi
+Territoire britannique de l'océan Indien,flags/io.png,Diego Garcia
+Irak,flags/iq.png,Bagdad
+Iran,flags/ir.png,Téhéran
+Islande,flags/is.png,Reykjavik
+Italie,flags/it.png,Rome
+Jersey,flags/je.png,St. Helier
+Jamaïque,flags/jm.png,Kingston
+Jordanie,flags/jo.png,Amman
+Japon,flags/jp.png,Tokyo
+Kenya,flags/ke.png,Nairobi
+Kirghizistan,flags/kg.png,Bichkek
+Cambodge,flags/kh.png,Phnom Penh
+Kiribati,flags/ki.png,South Tarawa
+Comores,flags/km.png,Moroni
+Saint-Kitts-et-Nevis,flags/kn.png,Basseterre
+Corée du Nord,flags/kp.png,Pyongyang
+Corée du Sud,flags/kr.png,Séoul
+Koweït,flags/kw.png,Koweït
+Îles Caïmans,flags/ky.png,George Town
+Kazakhstan,flags/kz.png,Astana
+Laos,flags/la.png,Vientiane
+Liban,flags/lb.png,Beyrouth
+Sainte-Lucie,flags/lc.png,Castries
+Liechtenstein,flags/li.png,Vaduz
+Sri Lanka,flags/lk.png,Sri Jayawardenapura Kotte
+Libéria,flags/lr.png,Monrovia
+Lesotho,flags/ls.png,Maseru
+Lituanie,flags/lt.png,Vilnius
+Luxembourg,flags/lu.png,Luxembourg
+Lettonie,flags/lv.png,Riga
+Libye,flags/ly.png,Tripoli
+Maroc,flags/ma.png,Rabat
+Monaco,flags/mc.png,Monaco
+Moldavie,flags/md.png,Chisinau
+Monténégro,flags/me.png,Podgorica
+Saint-Martin,flags/mf.png,Marigot
+Madagascar,flags/mg.png,Antananarivo
+Îles Marshall,flags/mh.png,Majuro
+Macédoine du Nord,flags/mk.png,Skopje
+Mali,flags/ml.png,Bamako
+Myanmar,flags/mm.png,Naypyidaw
+Mongolie,flags/mn.png,Oulan-Bator
+Macao,flags/mo.png,Macao
+Îles Mariannes du Nord,flags/mp.png,Saipan
+Martinique,flags/mq.png,Fort-de-France
+Mauritanie,flags/mr.png,Nouakchott
+Montserrat,flags/ms.png,Plymouth
+Malte,flags/mt.png,La Valette
+Maurice,flags/mu.png,Port-Louis
+Malawi,flags/mw.png,Lilongwe
+Mexique,flags/mx.png,Mexico
+Malaisie,flags/my.png,Kuala Lumpur
+Mozambique,flags/mz.png,Maputo
+Namibie,flags/na.png,Windhoek
+Nouvelle-Calédonie,flags/nc.png,Nouméa
+Niger,flags/ne.png,Niamey
+Île Norfolk,flags/nf.png,Kingston
+Nigeria,flags/ng.png,Abuja
+Nicaragua,flags/ni.png,Managua
+Pays-Bas,flags/nl.png,Amsterdam
+Norvège,flags/no.png,Oslo
+Népal,flags/np.png,Kathmandou
+Nauru,flags/nr.png,Yaren (de facto)
+Nouvelle-Zélande,flags/nz.png,Wellington
+Oman,flags/om.png,Muscat
+Panama,flags/pa.png,Panama
+Pérou,flags/pe.png,Lima
+Polynésie française,flags/pf.png,Papeete
+Papouasie-Nouvelle-Guinée,flags/pg.png,Port Moresby
+Philippines,flags/ph.png,Manille
+Pakistan,flags/pk.png,Islamabad
+Pologne,flags/pl.png,Warsaw
+Saint-Pierre-et-Miquelon,flags/pm.png,St. Pierre
+Îles Pitcairn,flags/pn.png,Adamstown
+Puerto Rico,flags/pr.png,San Juan
+Palestine,flags/ps.png,Jerusalem East
+Portugal,flags/pt.png,Lisbonne
+Palaos,flags/pw.png,Melekeok
+Paraguay,flags/py.png,Asuncion
+Qatar,flags/qa.png,Doha
+Réunion,flags/re.png,Saint-Denis
+Roumanie,flags/ro.png,Bucarest
+Serbie,flags/rs.png,Belgrade
+Russie,flags/ru.png,Moscou
+Rwanda,flags/rw.png,Kigali
+Arabie Saoudite,flags/sa.png,Riyadh
+Îles Salomon,flags/sb.png,Honiara
+Seychelles,flags/sc.png,Victoria
+Soudan,flags/sd.png,Khartoum
+Suède,flags/se.png,Stockholm
+Singapour,flags/sg.png,Singapour
+Saint-Hélène,flags/sh.png,Jamestown
+Slovénie,flags/si.png,Ljubljana
+Svalbard et Île Jan Mayen,flags/sj.png,Longyearbyen
+Slovaquie,flags/sk.png,Bratislava
+Sierra Leone,flags/sl.png,Freetown
+Saint-Marin,flags/sm.png,San Marino
+Sénégal,flags/sn.png,Dakar
+Somalie,flags/so.png,Mogadiscio
+Suriname,flags/sr.png,Paramaribo
+Soudan du Sud,flags/ss.png,Djouba
+São Tomé-et-Príncipe,flags/st.png,São Tomé
+Salvador,flags/sv.png,San Salvador
+Sint Maarten,flags/sx.png,Philipsburg
+Syrie,flags/sy.png,Damas
+Eswatini,flags/sz.png,Mbabane
+Ïles Turks et Caïques,flags/tc.png,Cockburn Town
+Tchad,flags/td.png,N'Djamena
+Territoires français du Sud et antarctiques,flags/tf.png,Port-aux-Français
+Togo,flags/tg.png,Lomé
+Thaïlande,flags/th.png,Bangkok
+Tadjikistan,flags/tj.png,Douchanbé
+Tokelau,flags/tk.png,Atafu
+Timor-Leste,flags/tl.png,Dili
+Turkménistan,flags/tm.png,Achgabat
+Tunisie,flags/tn.png,Tunis
+Tonga,flags/to.png,Nukuʻalofa
+Turquie,flags/tr.png,Ankara
+Trinité-et-Tobago,flags/tt.png,Port-d'Espagne
+Tuvalu,flags/tv.png,Funafuti
+Taïwan,flags/tw.png,Taipei
+Tanzanie,flags/tz.png,Dodoma
+Ukraine,flags/ua.png,Kiev
+Ouganda,flags/ug.png,Kampala
+Îles mineures éloignées des États-Unis,flags/um.png,Pas de capitale
+États-Unis,flags/us.png,Washington
+Uruguay,flags/uy.png,Montevideo
+Ouzbékistan,flags/uz.png,Tachkent
+Vatican,flags/va.png,Vatican
+Saint-Vincent-et-les-Grenadines,flags/vc.png,Kingstown
+Venezuela,flags/ve.png,Caracas
+Îles Vierges britanniques,flags/vg.png,Road Town
+Îles Vierges des États-Unis,flags/vi.png,Charlotte Amalie
+Vietnam,flags/vn.png,Hanoi
+Vanuatu,flags/vu.png,Port-Vila
+Wallis et Futuna,flags/wf.png,Mata-Utu
+Samoa,flags/ws.png,Apia
+Kosovo,flags/xk.png,Pristina
+Yémen,flags/ye.png,Sanaa
+Mayotte,flags/yt.png,Mamoudzou
+Afrique du Sud,flags/za.png,Pretoria
+Zambie,flags/zm.png,Lusaka
+Zimbabwe,flags/zw.png,Harare
