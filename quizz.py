@@ -2,7 +2,8 @@ import tkinter as tk
 from tkinter import Tk, Label, Button, messagebox, Entry, Radiobutton, Frame, Toplevel, Scrollbar, Canvas
 import random
 from PIL import Image, ImageTk
-
+import requests
+from bs4 import BeautifulSoup
 
 
 # Fonction pour lire le fichier des drapeaux et créer un dictionnaire
@@ -16,6 +17,35 @@ def load_flags_from_file(filename):
             capital_dict[country] = capital
     return flags_dict, capital_dict
 
+
+# Fonction pour scrapper des informations sur un pays depuis Wikipédia
+def get_country_info(country_name):
+    country_name = country_name.replace(' ', '_')
+    url = f"https://en.wikipedia.org/wiki/{country_name}"
+
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.content, 'html.parser')
+        infobox = soup.find('table', class_='infobox')
+        country_info = {}
+
+        if infobox:
+            rows = infobox.find_all('tr')
+            for row in rows:
+                header = row.find('th')
+                value = row.find('td')
+                if header and value:
+                    key = header.text.strip()
+                    val = value.text.strip()
+                    country_info[key] = val
+            return country_info
+        else:
+            return f"Aucune information trouvée pour le pays : {country_name}"
+
+    except requests.exceptions.HTTPError as e:
+        return f"Erreur lors de la récupération des informations: {e}"
+    
 # Charger les drapeaux depuis le fichier
 flags, capital = load_flags_from_file("flags.txt")
 
@@ -57,10 +87,6 @@ class FlagQuiz:
         self.streak_label = tk.Label(root, text=f"Réponses réussies d'affilée : {self.streak}", font=("Helvetica", 12))
         self.streak_label.pack()
 
-        # Créer une Frame pour les boutons
-        self.buttons_frame = tk.Frame(root)
-        self.buttons_frame.pack()
-
         self.buttons = []
         self.flag_images = []
 
@@ -71,18 +97,24 @@ class FlagQuiz:
         self.next_button = tk.Button(root, text="Prochaine question", font=("Arial", 14), command=self.next_question)
         self.next_button.pack(pady=20)
 
+
+        # Bouton pour obtenir les informations sur le dernier pays trouvé
+        self.info_button = tk.Button(root, text="Infos sur le pays", font=("Arial", 14), command=self.show_country_info)
+        self.info_button.pack(pady=20)
+
+
         self.next_question()
 
     def create_buttons(self):
         # Effacer les boutons existants s'ils existent
         for button in self.buttons:
-            button.grid_forget()
+            button.pack_forget()
         self.buttons = []
 
         # Créer les nouveaux boutons pour les drapeaux
-        for i in range(self.num_flags):
-            button = tk.Button(self.buttons_frame, text="", font=("Arial", 24), width=120, height=60, command=lambda i=i: self.check_answer(i))
-            button.grid(row=i//3, column=i%3, padx=10, pady=10)  # 3 boutons par ligne
+        for _ in range(self.num_flags):
+            button = tk.Button(self.root, text="", font=("Arial", 24), width=120, height=60, command=lambda i=len(self.buttons): self.check_answer(i))
+            button.pack(pady=10)
             self.buttons.append(button)
 
     def update_num_flags(self):
@@ -124,6 +156,10 @@ class FlagQuiz:
             self.flag_images[i] = photo
             self.buttons[i].config(image=photo, text="", font=("Arial", 24), width=120, height=60)
 
+
+        for j in range(len(self.choices), len(self.buttons)):
+            self.buttons[j].pack_forget()
+
         self.result_label.config(text="")
         self.current_question_type = "capital"  # Passer à la question sur la capitale après celle-ci
 
@@ -141,8 +177,12 @@ class FlagQuiz:
         for i, country in enumerate(self.choices):
             self.buttons[i].config(text=capital[country], image='', font=("Arial", 12), width=20, height=2)
 
+        for j in range(len(self.choices), len(self.buttons)):
+            self.buttons[j].pack_forget()
+
         self.result_label.config(text="")
         self.current_question_type = "flag"  # Revenir à la question sur le drapeau après celle-ci
+
 
     def check_answer(self, index):
         if self.choices[index] == self.correct_country:
@@ -156,6 +196,21 @@ class FlagQuiz:
 
         self.streak_label.config(text=f"Réponses réussies d'affilée : {self.streak}")
 
+
+    def show_country_info(self):
+        # Appeler la fonction de scraping avec le dernier pays correct
+        if hasattr(self, 'correct_country'):
+            country_info = get_country_info(self.correct_country)
+            if isinstance(country_info, dict):
+                info_message = "\n".join([f"{key}: {value}" for key, value in country_info.items()])
+            else:
+                info_message = country_info
+            # Afficher les informations dans une boîte de dialogue
+            messagebox.showinfo(f"Informations sur {self.correct_country}", info_message)
+        else:
+            messagebox.showerror("Erreur", "Aucun pays sélectionné.")
+
+            
     def show_all_countries(self):
         # Créer une nouvelle fenêtre pour afficher la liste de tous les pays
         all_countries_window = Toplevel(self.root)
