@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Flag Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="background-texture"></div>
+
+    <!-- Start Menu -->
+    <div class="menu-overlay" id="start-menu">
+        <div class="menu-card">
+            <h1>🌍 QuizzFlag</h1>
+            <p class="subtitle">Test your geography knowledge</p>
+            
+            <div class="menu-section">
+                <label>Question Type</label>
+                <div class="toggle-group">
+                    <button class="toggle-btn active" data-type="flag">Flags 🏳️</button>
+                    <button class="toggle-btn" data-type="capital">Capitals 🏛️</button>
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <label>Difficulty Mode</label>
+                <div class="toggle-group three-way">
+                    <button class="toggle-btn active" data-diff="4">4 Choices</button>
+                    <button class="toggle-btn" data-diff="8">8 Choices</button>
+                    <button class="toggle-btn" data-diff="input">Write Answer ✍️</button>
+                </div>
+            </div>
+
+            <button class="btn btn-primary btn-large" id="start-game-btn">Start Quiz</button>
+        </div>
+    </div>
+
+    <div class="app-container hidden" id="game-app">
+        <header>
+            <div class="logo">
+                <button class="icon-btn" id="home-btn" title="Back to Menu">🏠</button>
+                <span class="logo-text">QuizzFlag</span>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="label">Streak</span>
+                    <span class="value" id="streak-counter">0</span>
+                </div>
+            </div>
+        </header>
+
+        <main id="quiz-card">
+            <div class="loading-overlay" id="loading">
+                <div class="spinner"></div>
+            </div>
+
+            <div class="question-area">
+                <h2 id="question-text">Loading question...</h2>
+                <div class="visual-container" id="flag-container">
+                    <!-- Image injected here -->
+                    <img id="flag-image" src="" alt="Flag" class="hidden">
+                    <div class="capital-icon hidden" id="capital-icon">🏛️</div>
+                </div>
+            </div>
+
+            <!-- Multiple Choice Grid -->
+            <div class="options-grid" id="options-container">
+                <!-- Buttons injected here -->
+            </div>
+
+            <!-- Text Input Area -->
+            <div class="input-area hidden" id="input-container">
+                <input type="text" id="answer-input" placeholder="Type your answer here..." autocomplete="off">
+                <button class="btn btn-primary" id="submit-answer-btn">Submit</button>
+            </div>
+
+            <div class="feedback-area hidden" id="feedback-area">
+                <div class="feedback-message" id="feedback-message"></div>
+                <div class="feedback-actions">
+                    <button class="btn btn-secondary" id="info-btn">Show Info</button>
+                    <button class="btn btn-primary" id="next-btn">Next Question</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Info Modal -->
+        <div class="modal-overlay hidden" id="info-modal">
+            <div class="modal-card">
+                <button class="close-modal" id="close-modal">&times;</button>
+                <h3 id="modal-title">Country Info</h3>
+                <div class="modal-content" id="modal-content">
+                    Loading info...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
